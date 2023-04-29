@@ -9,9 +9,11 @@ public class PlayerController : MonoBehaviour
     public float jumpforce = 1000f;
     public float camerasensitivity = 1000f;
     public bool grounded = false;
+    public bool isflying = false;
     public Vector3 velocity = Vector3.zero;
     public Vector3 playerinput;
     public CharacterController controller;
+    public float flyspeed = 10f;
 
     public Camera playercamera;
 
@@ -33,19 +35,48 @@ public class PlayerController : MonoBehaviour
         
         controller.Move(transform.TransformDirection(playerinput) * Time.deltaTime * walkspeed);
 
-
-        if(grounded && velocity.y < 0)
+        //Toggle Flying
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            velocity.y = 0;
+            isflying = !isflying;
         }
 
-        if(Input.GetButtonDown("Jump") && grounded)
+        if (isflying)
         {
-            velocity.y += jumpforce;
-        }
+            //Flying Movement
+            if (Input.GetKey(KeyCode.Z))
+            {
+                velocity.y = flyspeed;
+            }
+            else if (Input.GetKey(KeyCode.C))
+            {
+                velocity.y = -flyspeed;
+            }
 
-        velocity.y += gravity * Time.deltaTime;
-        controller.Move(velocity * Time.deltaTime);
+            else
+            {
+                velocity.y = 0;
+            }
+            controller.Move(velocity * Time.deltaTime);
+        }
+        else
+        {
+
+
+            //Jumping and Gravity
+            if (grounded && velocity.y < 0)
+            {
+                velocity.y = 0;
+            }
+
+            if (Input.GetButtonDown("Jump") && grounded)
+            {
+                velocity.y += jumpforce;
+            }
+
+            velocity.y += gravity * Time.deltaTime;
+            controller.Move(velocity * Time.deltaTime);
+        }
     }
 
     private void LateUpdate()

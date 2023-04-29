@@ -54,10 +54,10 @@ PrefabInstance:
     - target: {fileID: 6498196357731673274, guid: 0629636afaff0624d8504dcafd4a2f15, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 54c4c2394c300494b86411ed9e5ebd4f, type: 2}
+      objectReference: {fileID: 2100000, guid: 56dd6621664dc8745a6394ec13b27ec1, type: 2}
     - target: {fileID: 6498196357731673279, guid: 0629636afaff0624d8504dcafd4a2f15, type: 3}
       propertyPath: m_Name
-      value: Cube (2)
+      value: Cube (2) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6498196357731673279, guid: 0629636afaff0624d8504dcafd4a2f15, type: 3}
       propertyPath: m_IsActive
