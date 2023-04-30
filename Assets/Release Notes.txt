@@ -1,0 +1,15 @@
+In the final version of Game:
+
+- Day/Night Cycle
+
+- Weather Possiblity 
+
+- A light source block
+
+Game Testers:
+
+#1: Game Developer - Likes Minecraft. Gives functional and performace related feedback.
+
+#2: Programmer - Like all types of coding such as C++ and Phyton. Gives 'How well the game runs smoothly' feedback and tips about UI.
+
+#3: Econonmic Analyst - How the game reaches a casual audience. Tips to increase market ability.   
