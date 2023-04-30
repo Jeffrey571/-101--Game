@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
     public float walkspeed = 20f;
     public float gravity = -10f;
     public float jumpforce = 1000f;
-    public float camerasensitivity = 1000f;
+    [Range(1,100)]
+    public float camerasensitivity = 30f;
     public bool grounded = false;
     public bool isflying = false;
     public Vector3 velocity = Vector3.zero;
