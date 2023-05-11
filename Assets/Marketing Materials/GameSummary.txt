@@ -1,0 +1,3 @@
+The 101 Game is a minecraft-liked game where you could create/destroy blocks, build structures up in the sky and down in the void, see the sun setting and rising in a 24 hour timeframe, and use light source blocks when it gets dark.
+
+#Creative , #Sandbox , #Ambient , #Colorful , #Day/NightCycle , #Lighting
