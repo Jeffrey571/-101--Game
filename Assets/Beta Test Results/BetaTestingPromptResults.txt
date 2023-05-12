@@ -8,7 +8,16 @@ Question 5: Nothing seemed far out of left field, everything seemed cohesive and
 
 #2 Programmer:
 
-
+Question 1: You have the smoothest camera sensitivity I have ever seen. Much, much smoother than the games I've created on Unity.
+Question 2: Your day/night cycle is very good. I'll like to see different types of weather conditions implemented into the game.
+Question 3: Your variety of blocks are great. One sugeestion for a future update is to add blocks that can teleport you to another location.
+Question 4: I'll probably pay $0.99 for this game. I'll love to see creatures being added to the game :).
+Question 5: The only problem in this game is for the torchlight block. Once I place the block, I can't break it. The only way I can remove that block is if you reset the game. Pls fix it! Other than that, game is good.  
 
 #3 Economic Analyst:
 
+Question 1: Camera sentistivity was not the best, but it was not the worst. It was adverage - room for improvement.
+Question 2: Day and night cycle is okay. I wish you made them longer so it would really feel like more of a 15 minute day or night cycle.
+Question 3: I can build decent structures. I would add light but visible borders to each block so it would be easier to place or break blocks.
+Question 4: I would pay about $3.99 to ge this game. I would love to see biomes, multiplayer, and a place where people can publish their worlds and you can download them to your game.
+Question 5: I wasn't expecting the reflection from the torchlight to other blocks to be so beatuiful and goergeous. Add other types of light source blocks with different colors and you'll see a beatuy that will enchant your game experience even more.
